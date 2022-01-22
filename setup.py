@@ -48,10 +48,10 @@ setup(
         'gunicorn',
         'pylibmc>=1.5.1',
         # RGD
-        'django-rgd-3d==0.2.13',
-        'django-rgd-fmv==0.2.13',
-        'django-rgd-geometry==0.2.13',
-        'django-rgd-imagery==0.2.13',
+        'django-rgd-3d==0.2.15',
+        'django-rgd-fmv==0.2.15',
+        'django-rgd-geometry==0.2.15',
+        'django-rgd-imagery==0.2.15',
     ],
     extras_require={
         'dev': [
